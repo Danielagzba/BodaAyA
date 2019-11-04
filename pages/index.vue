@@ -2,10 +2,9 @@
 
   <v-row align="center" justify="right">
   <v-img
-    src="https://i.imgur.com/SQ4fIYN.png"
+    src="https://i.imgur.com/uvDAnK9.jpg"
     aspect-ratio="1"
     class="grey lighten-2"
-    align="center"
     max-width="700"
     max-height="500"
   ></v-img>

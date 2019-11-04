@@ -1,4 +1,5 @@
 <template>
+
   <v-app light>
 
 
@@ -12,7 +13,9 @@
 
 
       <v-list>
-        <v-list-item-group v-model="model">
+        <v-list-item-group
+
+          v-model="model">
           <v-list-item
             nuxt
             v-for="(item, i) in items"
@@ -20,9 +23,12 @@
             :to="item.to"
           >
             <v-list-item-icon>
-              <v-icon v-text="item.icon"></v-icon>
+              <v-icon
+                color="white"
+                v-text="item.icon"></v-icon>
             </v-list-item-icon>
-            <v-list-item-content>
+            <v-list-item-content
+              class="white--text">
               <v-list-item-title v-text="item.text"></v-list-item-title>
             </v-list-item-content>
           </v-list-item>
@@ -33,7 +39,7 @@
 
     <v-app-bar
       class="primary--text"
-      color="grey lighten-5"
+      color="grey lighten-3"
       flat app clipped-left
                >
 
@@ -71,7 +77,6 @@
         <v-icon>mdi-dots-vertical</v-icon>
       </v-btn>
     </v-app-bar>
-
     <nuxt/>
 
     <v-footer
@@ -90,7 +95,7 @@
           class="lighten-1 py-4 text-center primary--text"
           cols="12"
         >
-          {{ new Date().getFullYear() }} — <strong>Naan</strong>
+          {{ new Date().getFullYear() }} — <strong>A&A</strong>
         </v-col>
       </v-row>
     </v-footer>
@@ -125,7 +130,7 @@
                 model: 1,
                 photos: [
                     {
-                        src: 'https://i.imgur.com/SQ4fIYN.png',
+                        src: 'https://i.imgur.com/uvDAnK9.jpg',
                     }
                 ],
             }

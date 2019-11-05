@@ -1,0 +1,4 @@
+$body-font-family = 'YourFontName';
+
+// main.styl
+@import '~vuetify/src/stylus/main';

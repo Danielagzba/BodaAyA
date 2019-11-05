@@ -1,6 +1,5 @@
 <template>
-  <v-app light>
-
+  <v-app :dark="setTheme">
 
 
     <v-navigation-drawer
@@ -10,9 +9,9 @@
       color="primary">
 
 
-
       <v-list>
-        <v-list-item-group v-model="model">
+        <v-list-item-group
+          v-model="model">
           <v-list-item
             nuxt
             v-for="(item, i) in items"
@@ -20,9 +19,12 @@
             :to="item.to"
           >
             <v-list-item-icon>
-              <v-icon v-text="item.icon"></v-icon>
+              <v-icon
+                color="white"
+                v-text="item.icon"></v-icon>
             </v-list-item-icon>
-            <v-list-item-content>
+            <v-list-item-content
+              class="white--text">
               <v-list-item-title v-text="item.text"></v-list-item-title>
             </v-list-item-content>
           </v-list-item>
@@ -33,16 +35,15 @@
 
     <v-app-bar
       class="primary--text"
-      color="grey lighten-5"
+      color="grey lighten-4"
       flat app clipped-left
-               >
+    >
 
       <v-app-bar-nav-icon @click="drawer = !drawer"
                           color="primary"></v-app-bar-nav-icon>
 
       <v-toolbar-title>Andrea&
         <span class="font-weight-bold">Beto</span>
-
 
 
       </v-toolbar-title>
@@ -52,7 +53,7 @@
       <v-divider vertical></v-divider>
 
       <v-btn icon
-      color="primary">
+             color="primary">
         <v-icon>mdi-magnify</v-icon>
       </v-btn>
 
@@ -71,9 +72,9 @@
         <v-icon>mdi-dots-vertical</v-icon>
       </v-btn>
     </v-app-bar>
-
-    <nuxt/>
-
+    <v-content>
+      <nuxt/>
+    </v-content>
     <v-footer
 
       color="grey lighten-3"
@@ -90,27 +91,30 @@
           class="lighten-1 py-4 text-center primary--text"
           cols="12"
         >
-          {{ new Date().getFullYear() }} — <strong>Naan</strong>
+          {{ new Date().getFullYear() }} — <strong>A&A</strong>
         </v-col>
       </v-row>
+      <darkMode></darkMode>
     </v-footer>
   </v-app>
 </template>
 
 <script>
-    export default{
+    import darkMode from "../components/darkMode";
+
+    export default {
         data() {
-            return{
+            return {
                 drawer: false,
                 items: [
                     {
-                        icon: 'mdi-home', text: 'Bienvenidos'
+                        icon: 'mdi-home', text: 'Bienvenidos', to: '/'
                     },
                     {
-                        icon: 'mdi-map-marker', text: '¿Dónde nos casamos?', to: '/'
+                        icon: 'mdi-map-marker', text: '¿Dónde nos casamos?', to: '/donde'
                     },
                     {
-                        icon: 'mdi-hotel', text: 'Hospedaje', to: '/work'
+                        icon: 'mdi-hotel', text: 'Hospedaje'
                     },
                     {
                         icon: 'mdi-gift', text: 'Sugerencia de regalos', to: '/aboutme'
@@ -119,7 +123,7 @@
                         icon: 'mdi-check', text: 'Confirma tu asistencia', to: '/contact'
                     },
                     {
-                        icon: 'mdi-email', text:'Contactanos'
+                        icon: 'mdi-email', text: 'Contactanos'
                     }
                 ],
                 model: 1,
@@ -130,7 +134,17 @@
                 ],
             }
         },
-        components: {},
-        computed: {}
+        components: {
+            darkMode: darkMode
+        },
+        computed: {
+            setTheme() {
+                if (this.$store.state.isDark) {
+                    return (this.$vuetify.theme.dark = true);
+                } else {
+                    return (this.$vuetify.theme.dark = false);
+                }
+            }
+        }
     }
 </script>

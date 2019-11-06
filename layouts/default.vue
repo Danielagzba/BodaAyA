@@ -42,7 +42,7 @@
       <v-app-bar-nav-icon @click="drawer = !drawer"
                           color="primary"></v-app-bar-nav-icon>
 
-      <v-toolbar-title>Andrea&
+      <v-toolbar-title>Andrea &
         <span class="font-weight-bold">Beto</span>
 
 
@@ -114,7 +114,7 @@
                         icon: 'mdi-map-marker', text: '¿Dónde nos casamos?', to: '/donde'
                     },
                     {
-                        icon: 'mdi-hotel', text: 'Hospedaje'
+                        icon: 'mdi-hotel', text: 'Hospedaje', to: '/alojamiento'
                     },
                     {
                         icon: 'mdi-gift', text: 'Sugerencia de regalos', to: '/aboutme'
@@ -123,7 +123,7 @@
                         icon: 'mdi-check', text: 'Confirma tu asistencia', to: '/contact'
                     },
                     {
-                        icon: 'mdi-email', text: 'Contactanos'
+                        icon: 'mdi-email', text: 'Contactanos', to: '/contacto'
                     }
                 ],
                 model: 1,

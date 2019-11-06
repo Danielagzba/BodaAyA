@@ -1,20 +1,42 @@
 <template>
 
   <v-container fluid>
+
+
     <v-row>
 
-      <v-col cols="12">
-        <v-row
-          align="start"
-          justify="start"
+      <v-col cols="12" xs="12" md="6">
+        <v-row align="start" justify="start">
+          <v-card
+            width="700"
+            color="transparent"
+            flat>
 
+
+            <v-img
+
+              src="https://i.imgur.com/WdjZ2qQ.jpg"
+              aspect-ratio="1"
+              max-width="600"
+              max-height="500"
+            ></v-img>
+
+          </v-card>
+        </v-row>
+      </v-col>
+
+      <v-col cols="12" xs="12" md="6">
+        <v-row
+          align="center"
+          justify="center"
 
         >
           <!-- color="grey lighten-5" -->
           <v-card
+
             color="transparent"
-            width="600px"
-            class="ma-8 pa-8"
+            width="700px"
+            class="ma-9 pa-9"
             flat
             tile
 
@@ -29,20 +51,29 @@
               ¡NOS CASAMOS!
             </p>
             <p>
-              is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-              standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it
-              to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
-              typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
-              sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus
-              PageMaker including versions of Lorem Ipsum.ing and typesetting industry. Lorem Ipsum has been the
-              industry's standard dummy
+              No hay nada que nos haga más ilusión que poder compartir contigo esté día tan especial. Es por eso que
+              estamos preparando una gran fiesta en la que seguro la pasaremos increíble.
+
+              Hemos creado esta página web para ayudarte con todas tus dudas sobre nuestro gran día, ver la ubicación de
+              donde será el evento, cómo llegar, así como sugerencias de hospedaje en Valle de Bravo.
+
+              Gracias por tu colaboración en hacer de este día el más especial en nuestras vidas.
+
             </p>
+
+            <p>
+              Andrea y Alberto
+            </p>
+
+
           </v-card>
         </v-row>
       </v-col>
 
+
     </v-row>
   </v-container>
+
 
 </template>
 <style>

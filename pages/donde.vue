@@ -1,12 +1,89 @@
 <template>
-  <v-container>
-    <v-col sm="12" xs="12" md="6">
-      <v-row>
+  <v-container fluid>
+
+    <v-row>
+
+      <v-col cols="12" xs="12" md="6">
+        <v-row align="start" justify="start">
+          <v-card
+            class="pa-3"
+            width="700%"
+
+            color="transparent"
+            flat>
+
+
+            <v-img
+
+              src="https://static.wixstatic.com/media/ead288_8cc8f3453b264d5bb9869de54ec774a0~mv2.jpg"
+              aspect-ratio="1"
+              max-width="600"
+              max-height="500"
+            ></v-img>
+
+          </v-card>
+        </v-row>
+      </v-col>
+
+
+      <v-col cols="12" xs="12" md="6">
+        <v-row
+          align="center"
+          justify="center"
+
+        >
+          <!-- color="grey lighten-5" -->
+          <v-card
+
+            color="transparent"
+
+            class="ma-9 pa-9"
+            flat
+            tile
+
+
+          >
+
+            <p
+
+              class="display-2 font-weight-black"
+
+            >
+
+              ROSMARINO FOREST GARDEN
+            </p>
+
+            <p>
+              Desde el primer momento supimos que Rosmarino sería el lugar ideal para celebrar nuestra boda.
+
+              Un lugar hermoso rodeado por la naturaleza, que muy pronto se convertirá en el escenario del inicio de nuestra
+              historia juntos.
+
+
+            </p>
+
+            <p>
+              Andrea y Alberto
+            </p>
+
+
+          </v-card>
+        </v-row>
+      </v-col>
+
+
+      <v-col sm="12" xs="12" md="12">
+
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d19240.282581182015!2d-100.07812976721098!3d19.13231024255805!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x353b60f6a3ad19df!2sRosmarino%20Forest%20Garden!5e0!3m2!1ses!2smx!4v1572922293458!5m2!1ses!2smx"
-          width="700" height="500" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-      </v-row>
-    </v-col>
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15077.574877656683!2d-100.0791487!3d19.1342355!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x353b60f6a3ad19df!2sRosmarino%20Forest%20Garden!5e0!3m2!1ses!2smx!4v1573084491194!5m2!1ses!2smx"
+          width="100%" height="500" frameborder="0" style="border:0;" allowfullscreen="">
+
+        </iframe>
+
+      </v-col>
+
+    </v-row>
+
 
   </v-container>
 

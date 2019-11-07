@@ -8,6 +8,7 @@
       <v-col cols="12" xs="12" md="6">
         <v-row align="start" justify="start">
           <v-card
+            class="pa-3"
             width="700"
             color="transparent"
             flat>
@@ -44,10 +45,10 @@
           >
 
             <p
-              class="display-3 font-weight-black"
+              class="display-3 font-weight-black primary--text"
+
 
             >
-
               ¡NOS CASAMOS!
             </p>
             <p>
@@ -61,7 +62,7 @@
 
             </p>
 
-            <p>
+            <p class="font-weight-bold">
               Andrea y Alberto
             </p>
 
@@ -78,7 +79,7 @@
 </template>
 <style>
   div {
-    font-family: "Times New Roman", Times, serif;
+    font-family: "roboto", Times, serif;
   }
 </style>
 <script>

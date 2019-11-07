@@ -5,6 +5,7 @@
     <v-navigation-drawer
       app
       clipped
+      temporary
       v-model="drawer"
       color="primary">
 

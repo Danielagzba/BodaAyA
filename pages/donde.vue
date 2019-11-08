@@ -46,7 +46,7 @@
 
             <p
 
-              class="display-2 font-weight-black"
+              class="display-2 font-weight-black primary--text"
 
             >
 
@@ -62,9 +62,7 @@
 
             </p>
 
-            <p>
-              Andrea y Alberto
-            </p>
+
 
 
           </v-card>

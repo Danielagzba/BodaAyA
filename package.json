@@ -11,7 +11,9 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "nuxt": "^2.0.0"
+    "@xkeshi/vue-countdown": "^1.0.1",
+    "nuxt": "^2.0.0",
+    "sendemail": "^3.4.0"
   },
   "devDependencies": {
     "@nuxtjs/vuetify": "^1.0.0",

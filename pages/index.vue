@@ -1,5 +1,6 @@
 <template>
 
+
   <v-container fluid>
 
 
@@ -9,7 +10,7 @@
         <v-row align="start" justify="start">
           <v-card
             class="pa-3"
-            width="700"
+            width="100%"
             color="transparent"
             flat>
 
@@ -54,15 +55,15 @@
             <p>
               No hay nada que nos haga más ilusión que poder compartir contigo esté día tan especial. Es por eso que
               estamos preparando una gran fiesta en la que seguro la pasaremos increíble.
-
+            <p>
               Hemos creado esta página web para ayudarte con todas tus dudas sobre nuestro gran día, ver la ubicación de
               donde será el evento, cómo llegar, así como sugerencias de hospedaje en Valle de Bravo.
-
-              Gracias por tu colaboración en hacer de este día el más especial en nuestras vidas.
+            </p>
+            Gracias por tu colaboración en hacer de este día el más especial en nuestras vidas.
 
             </p>
 
-            <p class="font-weight-bold">
+            <p class="font-weight-bold primary--text" align="right">
               Andrea y Alberto
             </p>
 

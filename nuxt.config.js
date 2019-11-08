@@ -13,8 +13,13 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
+    script: [
+      { src: 'https://s.pageclip.co/v1/pageclip.js', charset:"utf-8" }
+    ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: "stylesheet", href: "https://s.pageclip.co/v1/pageclip.css", media: "screen"}
+      // { type: "javascript" href:  }
     ]
   },
   /*
@@ -29,7 +34,7 @@ export default {
   /*
   ** Plugins to load before mounting the App
   */
-  plugins: [
+  plugins: [ '~/plugins/vue-countdown'
   ],
   /*
   ** Nuxt.js dev-modules

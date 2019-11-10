@@ -6,9 +6,9 @@
       <v-col cols="12" xs="12" md="6">
         <v-row align="start" justify="start">
           <v-card
+            tile
             class="pa-3"
             width="700%"
-
             color="transparent"
             flat>
 
@@ -46,23 +46,21 @@
 
             <p
 
-              class="display-2 font-weight-black primary--text"
+              class="display-2 text-center font-weight-black primary--text"
 
             >
 
               ROSMARINO FOREST GARDEN
             </p>
 
-            <p>
-              Desde el primer momento supimos que Rosmarino sería el lugar ideal para celebrar nuestra boda.
-
-              Un lugar hermoso rodeado por la naturaleza, que muy pronto se convertirá en el escenario del inicio de nuestra
-              historia juntos.
-
+            <p class="text-justify">
+              Desde el primer momento supimos que Rosmarino sería el lgar ideal para celebrar nuestra boda.
+            <p class="text-justify">
+              Un lugar hermoso rodeado por la naturaleza que sirve como el escenario perfecto para él gran día.
+            </p>
+            El clima de este rincon en el bosque va de templado a frio, por lo que te sugerimos llevar algo de abrigo.
 
             </p>
-
-
 
 
           </v-card>

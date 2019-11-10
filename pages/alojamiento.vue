@@ -1,68 +1,69 @@
 <template>
-<v-container>
-  <v-row>
-  <v-col sm="12" xs="12" md="6">
+  <v-container>
+    <v-row>
+      <v-col sm="12" xs="12" md="6">
 
-  <iframe id="stay22-widget" width="100%" height="500" frameborder="0"
-          src="https://www.stay22.com/embed/gm?lat=19.1583&lng=-100.05&venue=Optional%20Text&maincolor=BCC9C5">
+        <iframe id="stay22-widget" width="100%" height="500" frameborder="0"
+                src="https://www.stay22.com/embed/gm?lat=19.1583&lng=-100.05&venue=Optional%20Text&maincolor=BCC9C5&checkin=03/20/2020&checkout=03/22/2020">
 
-  </iframe>
-  </v-col>
+        </iframe>
+      </v-col>
 
-    <v-col cols="12" xs="12" md="6">
-      <v-row
-        align="center"
-        justify="center"
-
-      >
-        <!-- color="grey lighten-5" -->
-        <v-card
-
-          color="transparent"
-
-          class="ma-9 pa-9"
-          flat
-          tile
-
+      <v-col cols="12" xs="12" md="6">
+        <v-row
+          align="center"
+          justify="center"
 
         >
+          <!-- color="grey lighten-5" -->
+          <v-card
 
-          <p
+            color="transparent"
+            class="ma-9 pa-9"
+            flat
+            tile
 
-            class="display-2 font-weight-black"
 
           >
 
-            ALOJAMIENTO
-          </p>
+            <p
 
-          <p>
-            Hotel Rodavento
+              class="display-3 text-center font-weight-black primary--text"
 
-          </p>
+            >
 
-          <p>
-            Codigo: ANDREAYALBERTO
-          </p>
+              ALOJAMIENTO
+            </p>
 
-          <p>
-            con viegnicia al 20/01/2020
-          </p>
+            <p class="text-justify">
+              Con ayuda de este mapa ubica los hoteles y airbnb más cercanos al lugar de la boda.
+
+            </p>
+
+            <p class="text-justify">
+              Usa nuestro código para reservar.
+            </p>
+            <P class="text-justify">
+              Hotel Rodavento Codigo: ANDREAYALBERTO
+            </P>
+            <p class="text-justify">
+              con viegnicia al 20/01/2020
+            </p>
 
 
-        </v-card>
-      </v-row>
-    </v-col>
+          </v-card>
+        </v-row>
+      </v-col>
 
-  </v-row>
-</v-container>
+    </v-row>
+  </v-container>
 </template>
 
 <script>
     export default {
         name: "alojamiento"
     }
-</script >
+</script>
 
 <style scoped>
 

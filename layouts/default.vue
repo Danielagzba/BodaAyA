@@ -11,8 +11,7 @@
 
 
       <v-list>
-        <v-list-item-group
-          v-model="model">
+        <v-list-item-group>
           <v-list-item
             nuxt
             v-for="(item, i) in items"
@@ -40,11 +39,14 @@
       flat app clipped-left
     >
 
+
       <v-app-bar-nav-icon @click="drawer = !drawer"
                           color="primary"></v-app-bar-nav-icon>
 
       <v-toolbar-title>Andrea &
         <span class="font-weight-bold">Beto</span>
+
+
 
 
       </v-toolbar-title>
@@ -127,7 +129,6 @@
                         icon: 'mdi-email', text: 'Contactanos', to: '/contacto'
                     }
                 ],
-                model: 1,
                 photos: [
                     {
                         src: 'https://i.imgur.com/SQ4fIYN.png',

@@ -9,6 +9,7 @@
       <v-col cols="12" xs="12" md="6">
         <v-row align="start" justify="start">
           <v-card
+            tile
             class="pa-3"
             width="100%"
             color="transparent"
@@ -26,6 +27,7 @@
           </v-card>
         </v-row>
       </v-col>
+
 
       <v-col cols="12" xs="12" md="6">
         <v-row
@@ -46,16 +48,16 @@
           >
 
             <p
-              class="display-3 font-weight-black primary--text"
+              class="display-3 text-center font-weight-black primary--text"
 
 
             >
               ¡NOS CASAMOS!
             </p>
-            <p>
+            <p class="text-justify">
               No hay nada que nos haga más ilusión que poder compartir contigo esté día tan especial. Es por eso que
               estamos preparando una gran fiesta en la que seguro la pasaremos increíble.
-            <p>
+            <p class="text-justify">
               Hemos creado esta página web para ayudarte con todas tus dudas sobre nuestro gran día, ver la ubicación de
               donde será el evento, cómo llegar, así como sugerencias de hospedaje en Valle de Bravo.
             </p>

@@ -8,18 +8,16 @@
 
       <form  action="https://formspree.io/mnqqdzbn"  method="post">
 
-        <label>
-          Your email:
-          <input type="text" name="_replyto">
-        </label>
-        <label>
-          Your message:
-          <textarea name="message"></textarea>
-        </label>
+
+        <v-text-field type="text" name="name" label="Your name"></v-text-field>
+          <v-text-field type="text" name="_replyto" label="Your email:"></v-text-field>
+        <v-text-field type="text" name="message" label="Message:"></v-text-field>
+
+
 
         <!-- your other form fields go here -->
 
-        <button type="submit">Send</button>
+        <v-btn type="submit">Send</v-btn>
 
 
       </form>

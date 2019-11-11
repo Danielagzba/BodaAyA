@@ -6,6 +6,7 @@
 
     <v-row>
 
+
       <v-col cols="12" xs="12" md="6">
         <v-row align="start" justify="start">
           <v-card
@@ -69,6 +70,13 @@
               Andrea y Alberto
             </p>
 
+            <p
+              class="display-3 text-center font-weight-medium primary--text"
+
+
+            >
+              21.03.2020
+            </p>
 
           </v-card>
         </v-row>

@@ -6,14 +6,20 @@
 
     <v-col cols="6" xs="12" sm="6">
 
-      <form  action="https://send.pageclip.co/5ZSuYkrbAKOO5cBh0YVueXrYotXRj75K" class="pageclip-form" method="post">
+      <form  action="https://formspree.io/mnqqdzbn"  method="post">
 
-        <v-text-field type="text" name="name" label="Name" :counter="20" :rules="nameRules"/>
-        <v-text-field type="text" name="email" label="Email" value="" :rules="emailRules"/>
-        <v-text-field type="text" name="text" label="Message"/>
-        <v-btn tile class="button pageclip-form__submit font-weight-medium" type="submit">
-          <span>Send</span>
-        </v-btn>
+        <label>
+          Your email:
+          <input type="text" name="_replyto">
+        </label>
+        <label>
+          Your message:
+          <textarea name="message"></textarea>
+        </label>
+
+        <!-- your other form fields go here -->
+
+        <button type="submit">Send</button>
 
 
       </form>

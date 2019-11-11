@@ -1,13 +1,6 @@
 <template>
   <v-container>
     <v-row>
-      <v-col sm="12" xs="12" md="6">
-
-        <iframe id="stay22-widget" width="100%" height="500" frameborder="0"
-                src="https://www.stay22.com/embed/gm?lat=19.1583&lng=-100.05&venue=Optional%20Text&maincolor=BCC9C5&checkin=03/20/2020&checkout=03/22/2020">
-
-        </iframe>
-      </v-col>
 
       <v-col cols="12" xs="12" md="6">
         <v-row
@@ -28,11 +21,11 @@
 
             <p
 
-              class="display-3 text-center font-weight-black primary--text"
+              class="display-2 text-center font-weight-black primary--text"
 
             >
 
-              ALOJAMIENTO
+              HOSPEDAJE
             </p>
 
             <p class="text-justify">
@@ -53,6 +46,14 @@
 
           </v-card>
         </v-row>
+      </v-col>
+
+      <v-col sm="12" xs="12" md="6">
+
+        <iframe id="stay22-widget" width="100%" height="500" frameborder="0"
+                src="https://www.stay22.com/embed/gm?lat=19.1583&lng=-100.05&venue=Optional%20Text&maincolor=BCC9C5&checkin=03/20/2020&checkout=03/22/2020">
+
+        </iframe>
       </v-col>
 
     </v-row>

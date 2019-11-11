@@ -58,7 +58,7 @@
             <p class="text-justify">
               Un lugar hermoso rodeado por la naturaleza que sirve como el escenario perfecto para él gran día.
             </p>
-            El clima de este rincon en el bosque va de templado a frio, por lo que te sugerimos llevar algo de abrigo.
+            El clima de este rincón en el bosque va de templado a frío, por lo que te sugerimos llevar algo de abrigo.
 
             </p>
 

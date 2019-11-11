@@ -120,7 +120,7 @@
                         icon: 'mdi-hotel', text: 'Hospedaje', to: '/alojamiento'
                     },
                     {
-                        icon: 'mdi-gift', text: 'Sugerencia de regalos', to: '/aboutme'
+                        icon: 'mdi-gift', text: 'Sugerencia de regalos', to: '/regalos'
                     },
                     {
                         icon: 'mdi-check', text: 'Confirma tu asistencia', to: '/contact'

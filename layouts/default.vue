@@ -87,10 +87,10 @@
       >
 
         <v-col
-          class="lighten-1 py-4 text-center primary--text"
+          class="lighten-1 py-4 text-center primary--text font-weight-regular"
           cols="12"
         >
-          {{ new Date().getFullYear() }} — <strong>A&A</strong>
+          {{ new Date().getFullYear() }} — <strong>By Daniela Gonzaléz</strong>
         </v-col>
       </v-row>
       <darkMode></darkMode>

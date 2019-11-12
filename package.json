@@ -13,7 +13,9 @@
   "dependencies": {
     "@xkeshi/vue-countdown": "^1.0.1",
     "nuxt": "^2.0.0",
-    "sendemail": "^3.4.0"
+    "sendemail": "^3.4.0",
+    "vee-validate": "^3.0.11",
+    "vuelidate": "^0.7.4"
   },
   "devDependencies": {
     "@nuxtjs/vuetify": "^1.0.0",

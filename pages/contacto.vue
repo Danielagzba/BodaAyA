@@ -9,16 +9,18 @@
       <form  action="https://formspree.io/mnqqdzbn"  method="post">
 
 
-        <v-text-field type="text" name="name" label="Your name"></v-text-field>
-          <v-text-field type="text" name="_replyto" label="Your email:"></v-text-field>
-        <v-text-field type="text" name="message" label="Message:"></v-text-field>
+        <ValidationProvider :rules="{ name: true, email: true, message: true }">
+
+        <v-text-field type="text" name="name" label="Your name" v-model="name" v-validate="'required|max:20'"></v-text-field>
+          <v-text-field type="text" name="email" label="Your email:" v-model="email" v-validate="'required|email'"></v-text-field>
+        <v-text-field type="text" name="message" label="Message:" v-model="message" v-validate="'required|message'"></v-text-field>
 
 
 
         <!-- your other form fields go here -->
 
         <v-btn type="submit">Send</v-btn>
-
+        </ValidationProvider>
 
       </form>
 
@@ -28,20 +30,51 @@
 </template>
 
 <script>
+
     export default {
+        $_veeValidate: {
+            validator: 'new',
+        },
+
         data: () => ({
-            valid: true,
             name: '',
-            nameRules: [
-                v => !!v || 'Name is required',
-                v => (v && v.length <= 20) || 'Name must be less than 20 characters',
-            ],
             email: '',
-            emailRules: [
-                v => !!v || 'E-mail is required',
-                v => /.+@.+\..+/.test(v) || 'E-mail must be valid',
-            ],
-    })
+            message: '',
+
+            dictionary: {
+                attributes: {
+                    email: 'E-mail Address',
+                    // custom attributes
+                },
+                custom: {
+                    name: {
+                        required: () => 'Name can not be empty',
+                        max: 'The name field may not be greater than 20 characters',
+                        // custom messages
+                    },
+                    message: {
+                        required: 'message field is required',
+                    },
+                },
+            },
+        }),
+
+        methods: {
+            submit () {
+                this.validator.validate()
+            },
+            clear () {
+                this.name = '',
+                    this.email = '',
+                    this.message = ''
+
+            },
+        },
+
+        mounted () {
+            this.validator.localize('en', this.dictionary)
+        },
+
     }
 
 

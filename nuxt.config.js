@@ -14,7 +14,10 @@ export default {
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
     script: [
-      { src: 'https://s.pageclip.co/v1/pageclip.js', charset:"utf-8" }
+      { src: 'https://s.pageclip.co/v1/pageclip.js', charset:"utf-8" },
+     // { src: 'path/to/vue.js'},
+      //{ src: 'path/to/vee-validate.js'}
+
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
@@ -82,6 +85,10 @@ export default {
   ** Build configuration
   */
   build: {
+
+    transpile: [
+      "vee-validate/dist/rules"
+    ],
     /*
     ** You can extend webpack config here
     */

@@ -1,6 +1,6 @@
 <template>
   <v-container fluid>
-    <v-row align="start" justify="start"
+    <v-row align="center" justify="center"
     class="pa-3">
 
 
@@ -26,7 +26,29 @@
 
     </v-col>
     </v-row>
+
+    <v-col col="12">
+      <v-row justify="center" align="center">
+
+
+        <v-card color="transparent"
+                flat
+                tile
+                class="pa-10">
+
+          <p class="display-2 text-center font-weight-black primary--text">
+            ¿TIENES ALGUNA DUDA?
+          </p>
+          <p class="text-center text-justify">
+            Déjanos tu comentario o duda con respecto a la boda y nosotros te contestaremos directamente a tu correo electrónico
+          </p>
+
+        </v-card>
+      </v-row>
+    </v-col>
   </v-container>
+
+
 </template>
 
 <script>

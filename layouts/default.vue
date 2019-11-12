@@ -53,27 +53,23 @@
 
       <v-spacer></v-spacer>
 
-      <v-divider vertical></v-divider>
+
 
       <v-btn icon
              color="primary">
         <v-icon>mdi-magnify</v-icon>
       </v-btn>
 
-      <v-divider vertical></v-divider>
+
 
       <v-btn icon
              color="primary">
         <v-icon>mdi-heart</v-icon>
       </v-btn>
 
-      <v-divider vertical></v-divider>
 
 
-      <v-btn icon
-             color="primary">
-        <v-icon>mdi-dots-vertical</v-icon>
-      </v-btn>
+
     </v-app-bar>
     <v-content>
       <nuxt/>
@@ -123,7 +119,7 @@
                         icon: 'mdi-gift', text: 'Sugerencia de regalos', to: '/regalos'
                     },
                     {
-                        icon: 'mdi-check', text: 'Confirma tu asistencia', to: '/contact'
+                        icon: 'mdi-check', text: 'Confirma tu asistencia', to: '/asistencia'
                     },
                     {
                         icon: 'mdi-email', text: 'Contactanos', to: '/contacto'

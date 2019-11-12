@@ -1,9 +1,11 @@
 import { extend } from 'vee-validate';
+import { required, email } from 'vee-validate/dist/rules';
 
-extend('required', {
-  validate: value => !!value,
-  message() {
-    // You might want to generate a more complex message with this function.
-    return 'This field is required';
-  }
-});
+// Add the required rule
+extend('name', required);
+
+// Add the email rule
+extend('email', email);
+
+extend('message', message);
+

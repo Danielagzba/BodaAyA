@@ -53,12 +53,20 @@
               ROSMARINO FOREST GARDEN
             </p>
 
+
             <p class="text-justify">
               Desde el primer momento supimos que Rosmarino sería el lgar ideal para celebrar nuestra boda.
             <p class="text-justify">
               Un lugar hermoso rodeado por la naturaleza que sirve como el escenario perfecto para él gran día.
-            </p>
+            <p class="text-justify">
             El clima de este rincón en el bosque va de templado a frío, por lo que te sugerimos llevar algo de abrigo.
+
+            <p class="text-justify font-weight-medium">
+              Dress code: formal/día
+            <p class="text-justify font-weight-medium">
+              Hombres: trajé con corbata
+            <p class="text-justify font-weight-medium">
+            Mujeres: Vestido largo o midi
 
             </p>
 

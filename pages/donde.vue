@@ -64,7 +64,7 @@
             <p class="text-justify font-weight-medium">
               Dress code: formal/día
             <p class="text-justify font-weight-medium">
-              Hombres: trajé con corbata
+              Hombres: traje con corbata
             <p class="text-justify font-weight-medium">
             Mujeres: Vestido largo o midi
 

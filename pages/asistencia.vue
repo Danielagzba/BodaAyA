@@ -11,7 +11,7 @@
                   class="pa-10">
 
             <p class="display-2 text-center font-weight-black primary--text">
-              PROXIMAMENTE
+              PRÓXIMAMENTE
             </p>
 
           </v-card>

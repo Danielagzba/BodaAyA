@@ -7,7 +7,7 @@
     <v-row>
 
 
-      <v-col cols="12" xs="12" md="6">
+      <v-col cols="12" xs="12" md="6" sm="12">
         <v-row align="start" justify="start">
           <v-card
             tile

@@ -55,7 +55,7 @@
 
 
             <p class="text-justify">
-              Desde el primer momento supimos que Rosmarino sería el lgar ideal para celebrar nuestra boda.
+              Desde el primer momento supimos que Rosmarino sería el lugar ideal para celebrar nuestra boda.
             <p class="text-justify">
               Un lugar hermoso rodeado por la naturaleza que sirve como el escenario perfecto para él gran día.
             <p class="text-justify">

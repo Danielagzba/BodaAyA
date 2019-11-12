@@ -36,11 +36,11 @@
             <p class="text-justify">
               Usa nuestro código para reservar.
             </p>
-            <P class="text-justify">
-              Hotel Rodavento Codigo: ANDREAYALBERTO
+            <P class="font-weight-medium">
+              Hotel Rodavento Código: ANDREAYALBERTO
             </P>
             <p class="text-justify">
-              con viegnicia al 20/01/2020
+              con vigencia al 20/01/2020
             </p>
 
 

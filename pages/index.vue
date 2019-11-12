@@ -56,7 +56,7 @@
               ¡NOS CASAMOS!
             </p>
             <p class="text-justify">
-              No hay nada que nos haga más ilusión que poder compartir contigo esté día tan especial. Es por eso que
+              No hay nada que nos haga más ilusión que poder compartir contigo este día tan especial. Es por eso que
               estamos preparando una gran fiesta en la que seguro la pasaremos increíble.
             <p class="text-justify">
               Hemos creado esta página web para ayudarte con todas tus dudas sobre nuestro gran día, ver la ubicación de

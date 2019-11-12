@@ -57,9 +57,9 @@
             <p class="text-justify">
               Desde el primer momento supimos que Rosmarino sería el lugar ideal para celebrar nuestra boda.
             <p class="text-justify">
-              Un lugar hermoso rodeado por la naturaleza que sirve como el escenario perfecto para él gran día.
+              Un lugar hermoso rodeado por la naturaleza que sirve como el escenario perfecto para el gran día.
             <p class="text-justify">
-            El clima de este rincón en el bosque va de templado a frío, por lo que te sugerimos llevar algo de abrigo.
+            El clima de este rincón en el bosque va de templado a frío, te recomendamos llevar algo para abrigarte.
 
             <p class="text-justify font-weight-medium">
               Dress code: formal/día

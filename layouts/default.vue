@@ -3,6 +3,7 @@
 
 
     <v-navigation-drawer
+      expand-on-hover
       app
       clipped
       temporary

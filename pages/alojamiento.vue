@@ -42,6 +42,9 @@
             <p class="text-justify">
               con vigencia al 20/01/2020
             </p>
+            <P class="font-weight-medium">
+              Hotel las Caballerizas Código: #ANDREA&ALBERTO
+            </P>
 
 
           </v-card>

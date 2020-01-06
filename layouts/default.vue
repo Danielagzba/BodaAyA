@@ -120,10 +120,7 @@
                         icon: 'mdi-gift', text: 'Sugerencia de regalos', to: '/regalos'
                     },
                     {
-                        icon: 'mdi-check', text: 'Confirma tu asistencia', to: '/asistencia'
-                    },
-                    {
-                        icon: 'mdi-email', text: 'Contactanos', to: '/contacto'
+                        icon: 'mdi-email', text: 'Contáctanos', to: '/contacto'
                     }
                 ],
                 photos: [

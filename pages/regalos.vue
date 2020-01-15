@@ -51,7 +51,7 @@
             </p>
 
             <p class="text-justify">
-              Muchas gracias por formar parte de este día tan especial en nutras vidas. Tu presencia es lo más
+              Muchas gracias por formar parte de este día tan especial en nuestras vidas. Tu presencia es lo más
               importante para nosotros. Sin embargo si quieres contribuir en nuestro proyecto de vida agradecemos tu
               regalo en:
               <p class="text-center"> <a href="https://andreaybeto.zankyou.com/us" target="_blank">andreaybeto.zankyou.com</a>

@@ -114,7 +114,7 @@
                         icon: 'mdi-map-marker', text: '¿Dónde nos casamos?', to: '/donde'
                     },
                     {
-                        icon: 'mdi-hotel', text: 'Hospedaje', to: '/alojamiento'
+                        icon: 'mdi-bed', text: 'Hospedaje', to: '/alojamiento'
                     },
                     {
                         icon: 'mdi-gift', text: 'Sugerencia de regalos', to: '/regalos'

@@ -67,7 +67,11 @@
               Cuenta: 1560747338
 
               <p class="text-center">Clabe: 012180015607473386
+
             </p>
+
+            <p class="text-center font-weight-medium"> les pedimos pongan su nombre en el concepto del deposito para poder agradecerles</p>
+
 
 
           </v-card>

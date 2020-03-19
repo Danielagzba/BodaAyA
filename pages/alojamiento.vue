@@ -33,22 +33,25 @@
 
             </p>
 
-            <p class="text-justify">
-              Usa nuestro código para reservar.
-            </p>
+
             <P class="font-weight-medium">
               <a href="https://www.hotelrodavento.com/" target="_blank">Hotel Rodavento</a>
-              Código: ANDREAYALBERTO
+
             </P>
-            <p class="text-justify">
-              con vigencia al 20/01/2020
-            </p>
+
             <P class="font-weight-medium">
               <a href="https://hotellascaballerizas.mx/wp/" target="_blank">Hotel las Caballerizas</a>
-              Código: #ANDREA&ALBERTO
-              <a
-                href="BANNER-BODA-A_A.html"
-                target="_blank">PDF</a>
+
+            </P>
+
+            <P class="font-weight-medium">
+              <a href="https://www.hotelesmision.com.mx/destinos/estado-de-mexico/hotel-mision-grand-valle-de-bravo//" target="_blank">Hotel Misión Valle de Bravo</a>
+
+            </P>
+
+            <P class="font-weight-medium">
+              <a href="https://hotelavandaro.com.mx/" target="_blank">Hotel Avandaro</a>
+
             </P>
 
 
@@ -59,7 +62,7 @@
       <v-col sm="12" xs="12" md="6">
 
         <iframe id="stay22-widget" width="100%" height="500" frameborder="0"
-                src="https://www.stay22.com/embed/gm?lat=19.1583&lng=-100.05&venue=Optional%20Text&maincolor=BCC9C5&checkin=03/20/2020&checkout=03/22/2020">
+                src="https://www.stay22.com/embed/gm?lat=19.1583&lng=-100.05&venue=Optional%20Text&maincolor=BCC9C5&checkin=11/06/2020&checkout=11/08/2020">
 
         </iframe>
       </v-col>
